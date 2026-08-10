@@ -98,7 +98,7 @@ Mais do que decorar os valores da propriedade `display`, o objetivo é entender:
 Clone o repositório:
 
 ```bash
-git clone <url-do-repositorio>
+git clone <https://github.com/MiguelFreire-cmd/display>
 ```
 
 Depois, abra o arquivo `index.html` no navegador.
@@ -111,3 +111,5 @@ Este projeto faz parte dos meus estudos de **HTML e CSS**, com foco em aprender 
 
 ```
 ```
+
+
