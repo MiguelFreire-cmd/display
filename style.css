@@ -43,9 +43,10 @@
     background-color:burlywood ;
     font-size: x-large;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 27ADDpx;
     text-decoration: none;
     padding: 5px;
+
     border-radius: 10px;
     font-family: fantasy;
 
@@ -79,6 +80,7 @@
     width: 100%;
     height: 100px;
     background-color:crimson;
+    text-align: center;
 }
 
 .section-01{
