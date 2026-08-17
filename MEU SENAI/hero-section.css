@@ -1,0 +1,123 @@
+*{ margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+
+body{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.content-header{width: 100%;
+        height: 33.33%;
+        background-color:  white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.banner-header{
+
+    width: 60%;
+    height: 80%;
+    background-color:  white;
+    border: 2px solid gray;
+
+}
+
+
+.content--main{
+    width: 100%;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-TOP: 10PX;
+}
+.hero-content{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+;
+}
+
+.hero-content--center{
+
+    width: 30%;
+    height: 90%;
+    background-color:  white;
+    text-align: center;
+    border-radius: 5%;
+    border: 2px solid gray;
+
+
+    display: flex;
+
+        
+    justify-content: center;
+
+
+
+}
+.hero-content--left{
+
+    width: 30%;
+    height: 90%;
+    background-color:  white;
+    text-align: center;
+    justify-content: center;
+        
+    border-radius: 5%;
+    border: 2px solid gray;
+
+
+
+    display: flex;
+}
+.hero-content--right{
+
+    width: 30%;
+    height: 90%;
+    background-color:  white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5%;
+    border: 2px solid gray;
+
+
+    display: flex;
+}
+
+h1 {
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(67, 94, 145);
+    border-radius: 10%;
+    color: aliceblue;
+    font-size: large;
+    border: solid;
+
+
+    
+}
+p{
+        height: 5vh;
+        width: 100%;
+        background-color:  rgb(67, 94, 145);
+        color: aliceblue;
+            border-radius: 10%;
+        color: aliceblue;
+        font-size: medium;
+        border: solid;
+        
+
+
+
+}
