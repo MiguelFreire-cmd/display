@@ -34,13 +34,11 @@ body{
 .content-main__motorola--left{
 
     
-        width: 36%;
-        height: 100%;
-        border: solid;
+    width: 36%;
+    height: 100%;
+    border: solid;
         
 }
-
-
 
 .imagem{
     width: 100%;
@@ -54,6 +52,8 @@ body{
         height: 100%;
         border: solid;
         flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
 
        
 }
@@ -61,6 +61,7 @@ body{
         width: 100%;
         height: 30%;
         border: solid;
+        padding: 20px;
 
 
 }
@@ -69,13 +70,16 @@ body{
         width: 50%;
         height: 20%;
         border: solid;
-        display: flex;
+        flex-direction: column;
+        padding: 20px;
 
 }
 .content-main__motorola--bateria{
         width: 50%;
         height: 20%;
         border: solid;
+        flex-direction: column;
+        padding: 20px;
 
 
 }
@@ -83,4 +87,32 @@ body{
      width: 100%;
         height: 30%;
         border: solid;
+        padding: 20px;
+}
+
+.titulo{
+    font-size:110px;
+    font-family: Helvetica;
+
+}
+
+.subtitulo{
+
+    color: lightblue;
+    font-family: Helvetica;
+    font-size: 50px;
+}
+
+.titulo2 , .titulo3, .titulo4{
+        
+    font-size:50px;
+    font-family: Helvetica;
+    
+
+
+}
+.paragrafo, .paragrafo2, .paragrafo3{
+
+    font-size:30px;
+    font-family: Helvetica;
 }
