@@ -17,6 +17,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
+        border: solid;
     }
 
 .banner-header{
@@ -35,7 +36,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    border: solid;
     margin-TOP: 10PX;
 }
 .hero-content{
@@ -44,6 +45,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border: solid
 
 ;
 }
