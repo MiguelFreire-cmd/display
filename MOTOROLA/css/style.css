@@ -5,51 +5,34 @@
 }
 
 
-body{
-    background-color: rgb(255, 255, 255);
-    width: 100vw;
-    height: 100vh;
-}
-
 
 
 .content-main{
-    width: 100%;
-    height:100%;
+    height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid;
-
-}
-.content-main__motorola{   
-    width: 80%;
-    height:90%;
-    display: flex;
-    border: solid;
-
+    gap: 15px;
 
 
 }
-.content-main__motorola--left{
 
+.content-main__motorola--left img {
+
+        width: 400px;
+        height: 650px;
+        border: solid;
+        display: flex;
+
+
+}
+
+
+
+.content-main__motorola--right {
     
-    width: 36%;
-    height: 100%;
-    border: solid;
-        
-}
-
-.imagem{
-    width: 100%;
-    height: 100%;
-    border: solid;
-}
-
-.content-main__motorola--right{
-    
-        width: 64%;
-        height: 100%;
+        width: 850px;
+        height: 650px;
         border: solid;
         flex-direction: column;
         padding-top: 30px;
@@ -59,17 +42,25 @@ body{
 }
 .content-main__motorola--Titulo{
         width: 100%;
-        height: 30%;
-        border: solid;
+        height: 35%;
+ 
         padding: 20px;
 
 
+}
+.content-main__motorola--divisão{
+    margin-bottom: 30px;
+
+    width: 100%;
+    height: 30%;
+
+    display: flex;
 }
 
 .content-main__motorola--carregador{
         width: 50%;
         height: 20%;
-        border: solid;
+
         flex-direction: column;
         padding: 20px;
 
@@ -78,7 +69,7 @@ body{
 .content-main__motorola--bateria{
         width: 50%;
         height: 20%;
-        border: solid;
+
         flex-direction: column;
         padding: 20px;
 
@@ -87,12 +78,12 @@ body{
 .content-main__motorola--semfio{       
      width: 100%;
         height: 30%;
-        border: solid;
+
         padding: 20px;
 }
 
 .titulo{
-    font-size:110px;
+    font-size:70px;
     font-family: Helvetica;
 
 }
@@ -101,12 +92,12 @@ body{
 
     color: lightblue;
     font-family: Helvetica;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .titulo2 , .titulo3, .titulo4{
-        
-    font-size:50px;
+    
+    font-size:30px;
     font-family: Helvetica;
     
 
@@ -114,6 +105,6 @@ body{
 }
 .paragrafo, .paragrafo2, .paragrafo3{
 
-    font-size:30px;
+    font-size:20px;
     font-family: Helvetica;
 }
