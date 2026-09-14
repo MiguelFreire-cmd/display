@@ -1,0 +1,20 @@
+    <main class="brands">
+        <header class="brands__title">
+            <h1>conheça nossas marcas</h1>
+        </header>
+
+        <article class="brands__grid">
+            <section class="brands__card">
+                <div></div>
+                <div></div>
+            </section >
+            <section class="brands__card">
+                <div></div>
+                <div></div>
+            </section>
+            <section class="brands__card">
+                <div></div>
+                <div></div>
+            </section>
+        </article>
+    </main>
