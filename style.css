@@ -20,7 +20,7 @@
 
 .body-container {
 
-    background-color: darkgray;
+    background-color: rgb(162, 236, 255);
 }
 
 
@@ -33,7 +33,7 @@
 
 
 
-    background-color: gray;
+    background-color: rgb(128, 128, 128);
 
 
 
@@ -75,13 +75,15 @@
     width: 500px;
     height: 100px;
     background-color:darkslategray;
-    color:#fff
+    color:#fff;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu{
 
     width: 100%;
-    height: 100px;
+    height: 100%;
     background-color:crimson;
     text-align: center;
 }
@@ -113,14 +115,31 @@ Displau inline-block: elemenos em linha + largura e altura*/
     font-size: medium;
     line-height: 20px;
     margin-left: 19px;
-
-
-
-
 }
 
 .section-01--title{
 
     font-size:x-large;
     font-style: bold;
+}
+
+.sumario details{
+    border: 2px solid;
+    width: 50%;
+    margin-left: 25px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.sumario summary{
+    background-color: #000000;
+    color: #fff;
+}
+
+.sumario p{
+    color: pink;
+    font-weight: 500;
+    line-height: 25px;
+    background-color:darkgrey
+
 }
