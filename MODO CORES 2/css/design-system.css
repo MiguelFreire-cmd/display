@@ -1,7 +1,5 @@
-
-
-    
 :root{
+
     /* Cores Globais da Interface (Menu Lateral) */
     --ui-bg-sidebar: #010d2e;
     --ui-border: #29292e;
@@ -11,15 +9,6 @@
     --ui-link-active-bg: #7500c8;
     --ui-link-active-text: #ffffff;
 
-    --faq-bg: #0d1b3e;
-    --faq-card-bg: #16264f;
-    --faq-card-hover-bg: #1e3266;
-    --faq-border: #2a3e75;
-    --faq-border-neon: #7500c8;
-    --faq-border-neon-glow: #9d26ef;
-    --faq-text-title: #ffffff;
-    --faq-text-question: #e2e8f0;
-    --faq-text-answer: #94a3b8;
 
     /* Paleta do Sistema RGB */
     --color-rgb-1: rgb(255, 0, 0);
@@ -37,15 +26,24 @@
     --color-cmyk-5: #03e6e6; 
     --color-cmyk-6: #d900d9; 
 
-
-
-    --color-netflix-1:#221f1f;
+    /* Paleta da Sistema Netflix */
+    --color-netflix-1:#b1060f;
     --color-netflix-2:#e50914;
-    --color-netflix-3:#f5f5f1;
+    --color-netflix-3:#000;
+    /* Paleta do Sistema Google */
+    --color-google-1:#db4437;
+    --color-google-2:#f4b400;
+    --color-google-3:#0f9d58;
+    --color-google-4:#4285f4;
 
-    --color-google-1:#4285F4;
-    --color-google-2:#FBBC05;
-    --color-google-3:#34A853;
-    --color-google-4:#EA4335;
-    
+    /* Paleta de cores do FAQ */
+    --faq-bg: #0d1b3e;
+    --faq-card-bg: #16264f;
+    --faq-card-hover-bg: #1e3266;
+    --faq-border: #2a3e75;
+    --faq-border-neon: #7500c8;
+    --faq-border-neon-glow: #9d26ef;
+    --faq-text-title: #ffffff;
+    --faq-text-question: #e2e8f0;
+    --faq-text-answer: #94a3b8;
 }
