@@ -1,3 +1,19 @@
 @import url(./reset.css);
 @import url(./style.css);
 @import url(./variables.css);
+
+@media (max-width:500px){ 
+}
+
+@media (max-width:501px) and (max-width:767px){ 
+}
+
+@media (max-width:768px) and (max-width:1023px){ 
+}
+
+@media (max-width:1024px){ 
+}
+
+
+
+

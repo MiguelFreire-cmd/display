@@ -7,19 +7,44 @@
     <link rel="stylesheet" href="./css/responsible.css">
 </head>
 <body>
-    <header>
-        <div>
-
+    <header class="header">
+        <div class="header__brand">
+            <h1 class="header__title">Hub<mark>IA</mark></h1>
         </div>
 
-        <nav>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+        <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#vision" class="nav__link">Visão Computacional</a></li>
+                    <li class="nav__item"><a href="#nip" class="nav__link">PLN</a></li>
+                    <li class="nav__item"><a href="#generativa" class="nav__link">IA Generativa</a></li>
+                    <li class="nav__item"><a href="#predictive" class="nav__link">IA Predictiva</a></li>
+                    <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+                </ul>
         </nav>
 
     </header>
+    <main>
+        <section id="vision" class="section-ia">
+            <div class="section-ia__container">
+                <article class="section-ia__content">
+                    <h2 class="section-ia__title">1.Visão Computacional</h2>
+                    <p class="section-ia__text">A Visão Computacional permite que os sistemas<strong>extreiam informações estruturadas de imagens e vídeos</strong>
+                         O modelo identifica objetos,padrões biométicos e falhas industriais em tempo real com alta precisão</p>
+                    <p class="section-ia__text"><em>Exemplo de aplicação:</em>Diagnóstico médico automatizado analisando radiografias para identificar anomalias precocemente</p>
+                </article>
+                <aside class="section-ia__aside">
+                    <div class="car-image"><img src="https://placehold.co/500x300/e2e8f0/0284c7?text=Visao+Computacional+500x300"
+                         alt="Exempo de Visão Computacional" class="card-image__img"></div>
+                </aside>
+            </div>
+        </section>
+        <section id="nlp" class="section-ia section-ia--reverse"></section>
+        <section id="generativa" class="section-ia"></section>
+        <section id="predictive" class="section-ia section-ia--reverse"></section>
+        <section id="faq" class="faq"></section>
+    </main>
+    <footer class="footer">
+
+    </footer>
 </body>
 </html>
