@@ -70,3 +70,40 @@
     width: 100%;
     max-width: 1200px;
 }
+.section-ia--reverse .section-ia__container{
+    flex-direction: row-reverse;
+}
+.section-ia__content{
+    flex: 1;
+}
+.section-ia__aside{
+    flex: 1;
+}
+.section-ia__title{
+    font-size: var(--font-size-xl);
+    color: var(--color-primary);
+    margin-bottom: 15px;
+}
+.section-ia__text {
+    color: var(--color-text-muted);
+    margin-bottom: 15px;
+    font-size: var(--font-size-base);
+}
+.car-image{
+    background-color: var(--color-bg-card);
+    padding: 12px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-card);
+    border: 1px solid var(--color-border);
+    transition: var(--transition);
+}
+.car-image:hover{
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-hover);
+}
+.car-image__img{
+    width: 100%;
+    border-radius: var(--radius-sm);
+    object-fit: cover;
+}
+
